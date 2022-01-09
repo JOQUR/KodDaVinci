@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KodDaVinci", "KodDaVinci\KodDaVinci.csproj", "{F1EB7CA7-ABAC-4C88-9720-2B331F87B5DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EB7CA7-ABAC-4C88-9720-2B331F87B5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EB7CA7-ABAC-4C88-9720-2B331F87B5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EB7CA7-ABAC-4C88-9720-2B331F87B5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EB7CA7-ABAC-4C88-9720-2B331F87B5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E933A96D-20E3-4671-8858-019C127B6870}
+	EndGlobalSection
+EndGlobal
