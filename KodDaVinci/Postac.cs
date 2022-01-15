@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KodDaVinci
 {
-    class Postac
+    struct Postac
     {
         public string name;
         public string surname;
