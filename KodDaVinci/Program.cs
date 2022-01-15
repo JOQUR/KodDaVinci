@@ -21,9 +21,11 @@ namespace KodDaVinci
             Scena_pokoj scena_Pokoj = new Scena_pokoj();
             Scena_wyklad scena_Wyklad = new Scena_wyklad();
             Scena_zabojstwo scena_Zabojstwo = new Scena_zabojstwo();
-            //scena_Pokoj.szukanie_laptopa();
-            //scena_Wyklad.Wyklad();
+            Scena_historycznemiejsce scena_Historycznemiejsce = new Scena_historycznemiejsce();
+            scena_Pokoj.szukanie_laptopa();
+            scena_Wyklad.Wyklad();
             scena_Zabojstwo.zabojstwo();
+            scena_Historycznemiejsce.wlamanie();
         }
     }
 }

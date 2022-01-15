@@ -74,11 +74,9 @@ namespace KodDaVinci
             bool areEqual = Enumerable.SequenceEqual(answer, fibo);
             if (areEqual == false)
             {
-                Console.WriteLine("Zly ciag znakow, laptop zablokowany! (GAME OVER!)");
-                Thread.Sleep(1000);
-                Environment.Exit(1);
+                
             }
-            Console.WriteLine("Udało się!");
+            Console.WriteLine("Udało się! Jedzmy teraz do miejsca o którym miał Jacques notatki, tam musi być coś ciekawego w związku z św graalem!");
         }
 
     }

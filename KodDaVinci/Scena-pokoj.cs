@@ -27,6 +27,7 @@ namespace KodDaVinci
                 {
                     Console.WriteLine("Ehhh to chyba nie tu, sprawdzę w sejfie. Tylko jaki był kod? Ahhh... muszę zamienic ten ciąg binarny na dziesiętny");
                     unlocking();
+                    break;
                 }
                 else
                 {
