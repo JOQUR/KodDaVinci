@@ -22,6 +22,7 @@ namespace KodDaVinci
             Scena_wyklad scena_Wyklad = new Scena_wyklad();
             Scena_zabojstwo scena_Zabojstwo = new Scena_zabojstwo();
             Scena_historycznemiejsce scena_Historycznemiejsce = new Scena_historycznemiejsce();
+            Scena_cambrige scena_Cambrige = new Scena_cambrige();
             Scena_wiezaeiffla scena_Wiezaeiffla = new Scena_wiezaeiffla();
             Final final = new Final();
             scena_Pokoj.szukanie_laptopa();
@@ -29,6 +30,7 @@ namespace KodDaVinci
             scena_Zabojstwo.zabojstwo();
             scena_Historycznemiejsce.wlamanie();
             scena_Wiezaeiffla.paryz();
+            scena_Cambrige.Cambridge();
             final.cambridge();
         }
     }
