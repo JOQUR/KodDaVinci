@@ -29,6 +29,8 @@ namespace KodDaVinci
                     Environment.Exit(1);
                 }
             }
+            Console.WriteLine("Sophie coś znalazłem, to chyba może sie przydać, mowa tutaj o wieży Eiffla oraz jakimś miejscu w Anglii. Dasz rady udać się do Anglii? Ja zobacze co tam w Paryżu");
+            Console.WriteLine("Sophie: Okej!");
         }
     }
 }

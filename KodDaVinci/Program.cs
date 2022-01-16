@@ -6,7 +6,7 @@ namespace KodDaVinci
     {
         static void Main(string[] args)
         {
-            //Start();
+            Start();
             game();
         }
         public static void Start()
@@ -22,10 +22,14 @@ namespace KodDaVinci
             Scena_wyklad scena_Wyklad = new Scena_wyklad();
             Scena_zabojstwo scena_Zabojstwo = new Scena_zabojstwo();
             Scena_historycznemiejsce scena_Historycznemiejsce = new Scena_historycznemiejsce();
+            Scena_wiezaeiffla scena_Wiezaeiffla = new Scena_wiezaeiffla();
+            Final final = new Final();
             scena_Pokoj.szukanie_laptopa();
             scena_Wyklad.Wyklad();
             scena_Zabojstwo.zabojstwo();
             scena_Historycznemiejsce.wlamanie();
+            scena_Wiezaeiffla.paryz();
+            final.cambridge();
         }
     }
 }
